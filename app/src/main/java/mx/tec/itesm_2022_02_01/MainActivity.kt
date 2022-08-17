@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         var myTxt : String
 
-        var myTextView = findViewById<TextView>(R.id.textView2)
+        var myTextView = findViewById<TextView>(R.id.textView)
         var myEditText = findViewById<EditText>(R.id.editTxt)
         var myButton = findViewById<Button>(R.id.button)
         ///-----
