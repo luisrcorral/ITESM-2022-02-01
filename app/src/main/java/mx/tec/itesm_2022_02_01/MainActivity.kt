@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         var myTextView = findViewById<TextView>(R.id.textView2)
         var myEditText = findViewById<EditText>(R.id.editTxt)
         var myButton = findViewById<Button>(R.id.button)
-
+        ///-----
         myButton.setOnClickListener {
             myTxt = myEditText.text.toString()
             myTextView.text = myTxt
